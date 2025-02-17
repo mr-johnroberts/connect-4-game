@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Connect 4 Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern implementation of the classic Connect 4 game built with React and Tailwind CSS. Features a responsive design, accessibility support, and smooth animations.
 
-## Available Scripts
+![Connect 4 Game Screenshot](screenshot.png)
 
-In the project directory, you can run:
+## 🎮 Demo
 
-### `npm start`
+Try it out: [Live Demo](https://connect4-react-game.netlify.app)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🎨 Customizable player names and colors
+- ♿ Full keyboard navigation and screen reader support
+- 📱 Responsive design for all devices
+- 🎯 Real-time color contrast checking
+- 🚀 Optimized performance with React
+- 💅 Modern UI with smooth animations
 
-### `npm test`
+## 🛠️ Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React](https://reactjs.org/) - UI Framework
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [Lucide React](https://lucide.dev/) - Icons
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html) - State Management
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (v14 or higher)
+- npm or yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/yourusername/connect-4.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+cd connect-4
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Start the development server
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎯 How to Play
 
-### Code Splitting
+1. Enter names for both players
+2. Choose colors for each player's pieces
+3. Click "Start Game" to begin
+4. Players take turns dropping pieces into columns
+5. Connect 4 pieces horizontally, vertically, or diagonally to win
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ⌨️ Keyboard Controls
 
-### Analyzing the Bundle Size
+- `Tab` - Navigate through game cells
+- `Enter/Space` - Drop piece in selected column
+- `Esc` - Reset game
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🧪 Running Tests
 
-### Making a Progressive Web App
+```bash
+npm test
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📦 Build
 
-### Advanced Configuration
+To build for production:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm run build
+```
 
-### Deployment
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### `npm run build` fails to minify
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## 👏 Acknowledgments
+
+- Inspired by the classic Connect Four game
+- UI design inspired by Material Design principles
+- Thanks to the React and Tailwind CSS communities
+
+## 📧 Contact
+
+Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
+
+Project Link: [https://github.com/yourusername/connect-4](https://github.com/yourusername/connect-4)
